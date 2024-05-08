@@ -5,8 +5,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import LabelEncoder
 
 # Carga de los datasets
-items_game = pd.read_csv('../Datacsv/items_games_.csv', parse_dates=['Release_date'])
-review_game = pd.read_csv('../Datacsv/review_games_.csv', parse_dates=['Release_date', 'Posted'])
+items_game = pd.read_csv('Datacsv/items_games_.csv', parse_dates=['Release_date'])
+review_game = pd.read_csv('Datacsv/review_games_.csv', parse_dates=['Release_date', 'Posted'])
 
 app = FastAPI()
 
